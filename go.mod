@@ -19,3 +19,7 @@ require (
 	github.com/spf13/viper v1.7.1
 	golang.org/x/sys v0.0.0-20210218155724-8ebf48af031b // indirect
 )
+
+replace (
+	github.com/jiyeyuran/mediasoup-go v1.6.37 => ../mediasoup-go
+)
